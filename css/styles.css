@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    word-wrap: break-word !important;
+    background-color: #1E1E1E !important;
+   
+}
+
+.L-logo{
+    height:150px;
+    width:150px;
+}
+#nav-section{
+    background-color:  #1E1E1E;
+    color:#fff;
+}
+.nav-link{
+    color:#fff !important;
+    font-size:1.1rem;
+}
+.nav-link:hover{
+  color:#63b7af !important;
+}
+.big-name{
+    /* color:#7A63FF; */
+    color:#63b7af;
+    font-size:4rem;
+    font-family: 'Lexend Tera', sans-serif;
+}
+#top-section{
+    background-color:#1E1E1E;
+}
+.typing-text{
+    color:#fff;
+    font-size:1.2rem;
+}
+.three-dots{
+    background-color: #1E1E1E;
+}
+/* about section */
+.side-heading{
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    font-size:2rem;
+    font-family: 'Lexend Tera', sans-serif;
+    color:#63b7af;
+    
+}
+.about-para{
+    font-size:1.2rem;
+    color:#fff;
+}
+#about-me{
+    background-color:#1E1E1E;
+}
+.lavanya{
+    position:absolute;
+    top:45%;
+    left:37%;
+}
+/* my skills */
+.progress-bar-animated{
+    background-color: #63b7af;
+}
+.skill-name{
+    font-family: 'Lexend Tera', sans-serif;
+    
+}
+#my-skills{
+    background-color: #1E1E1E;
+    color:#fff;
+}
+
+/* contact me */
+.contact-box{
+    /* background-color:#63b7af;
+    color:#000;
+    transition: all 0.5s ease-out; */
+    font-size: 1rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out;
+    background-color: #63b7af;
+}
+.contact-box:hover{
+    /* padding: 0.5rem 1.5rem;
+    background: #00CCCD;
+    color: #000;  */
+    color: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+}
+.contact-text{
+    font-family: 'Merriweather Sans', sans-serif; 
+}
+#contact-me{
+    background-color: #1E1E1E;
+}
+.contact-piece{
+    color:#fff;
+}
+.icon{
+    color: #63b7af;
+}
+.icon:hover{
+    color:#fff;
+}
+#copyright{
+    background-color: #1E1E1E;
+    color:#fff;
+}
+.dots-img{
+    width:5%;
+    height:5%;
+}
+/* My works */
+#my-works{
+    background-color: #1E1E1E;
+
+}
+.work-card{
+    /* background-color: #a5ffc9; */
+    /* background-color: #f4f4f4; */
+    background-color: #f0f0f0;
+}
+#top-scroll-btn{
+    background-color: #1E1E1E;
+}
+.btn-top{
+    background-color:#a5ffc9;
+    border-radius:100%;
+    border:5px solid #fff;
+}
+.btn-top:hover{
+    background-color:#fff;
+    border:5px solid #a5ffc9;
+}
+
+@media(max-width:1138px){
+    .lavanya{
+        left:33%;
+    }
+}
+@media(max-width:986px){
+    .big-name{
+        font-size:3.5rem;
+    }
+    .typing-text{
+        font-size:1rem;
+    }
+    .lavanya{
+        left:33%;
+    }
+}
+@media(max-width:690px){
+    .big-name{
+        font-size:2rem;
+    }
+    .typing-text{
+        font-size:0.9rem;
+    }
+    .lavanya{
+        left:31%;
+    }
+    .contact-piece{
+        font-size:1.2rem;
+    }
+    .skill-name{
+        font-size:1rem;
+    }
+}
+@media(max-width:540px){
+    .lavanya{
+        left:27%;
+    }
+    .L-logo{
+        height:100px;
+        width:100px;
+    }
+}
+@media(max-width:440px){
+    .lavanya{
+        left:25%;
+    }
+}
+@media(max-width:328px){
+    .big-name{
+        font-size:1.5rem;
+    }
+    .lavanya{
+        left:12%;
+    }
+}
