@@ -63,9 +63,6 @@ body{
     left:37%;
 }
 /* my skills */
-.progress-bar-animated{
-    background-color: #63b7af;
-}
 .skill-name{
     font-family: 'Lexend Tera', sans-serif;
     
@@ -74,7 +71,27 @@ body{
     background-color: #1E1E1E;
     color:#fff;
 }
-
+.skill-btn{
+    background-color: transparent;
+    border:1px solid #64b7af;
+    padding:15px 25px;
+    margin:10px 10px;
+    border-radius: 34px;
+    box-shadow:1px 2px 10px #64b7af; 
+    color:#fff;
+    cursor:default !important;
+}
+.skill-heading{
+    color:#64b7af;
+    font-size:30px;
+}
+.skills{
+    font-size:25px;
+}
+.skill-line{
+    background-color:#fff;
+    width:20%;
+}
 /* contact me */
 .contact-box{
     /* background-color:#63b7af;
